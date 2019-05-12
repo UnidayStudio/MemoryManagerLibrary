@@ -17,15 +17,18 @@ The allocating and freeing time was considerally slower than the default approac
 **Allocation Time**
 ```
 Before: 0.001632s
-After:  0.044385s```
+After:  0.044385s
+```
 
 **Iteration Time**
 ```
 Before: 0.005018s
-After:  0.002662s```
+After:  0.002662s
+```
 
 **Deallocation Time**
 ```
 Before: 0.001636s
-After:  0.053877s```
+After:  0.053877s
+```
   
