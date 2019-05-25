@@ -9,7 +9,7 @@
 
 #define NEW_SYSTEM
 
-#define TEST_SIZE 10000
+#define TEST_SIZE 100000
 
 #ifdef NEW_SYSTEM // My system...
 #define NEW(d, t) d.Add()
@@ -22,9 +22,9 @@
 
 namespace memTest {
 	void ExecutionTime(int iterations) {
-		float avgTime1 = 0;
-		float avgTime2 = 0;
-		float avgTime3 = 0;
+		double avgTime1 = 0;
+		double avgTime2 = 0;
+		double avgTime3 = 0;
 
 		for (int tests = 0; tests < iterations; tests++) {
 			std::cout << "Running test... " << tests << " of " << iterations << "...\n";

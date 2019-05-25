@@ -9,8 +9,8 @@
 int main() {
 	mem::PrintInfo();
 
-	memTest::MemoryAccess();
-	//memTest::ExecutionTime(10);
+	//memTest::MemoryAccess();
+	memTest::ExecutionTime(10);
 
 	std::cout << "(Press something to exit)\n";
 	
