@@ -13,6 +13,8 @@ Each test was executed ten times and created an array of a hundred thousands ele
 
 ### Results
 The allocating and freeing time was considerally slower than the default approach but the iteration time was almost two times faster.
+
+![](https://i.ibb.co/0rrTg43/image.png)
  
 **Allocation Time**
 ```
